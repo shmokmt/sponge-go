@@ -26,6 +26,6 @@ jobs:
           distribution: goreleaser
           version: "~> v2"
           args: release --clean
-          workdir: cmd/tfhk
+          workdir: cmd/sponge
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
